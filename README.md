@@ -1,6 +1,6 @@
 ![bana](assets/banner.png)
 
-Random Quotes Generator is a CLI tool that generates random quotes.  
+Random Quotes Generator (RQG) is a CLI tool that generates random quotes.  
 Built with click framework
 
 **Basic usage gif**
@@ -15,7 +15,7 @@ Built with click framework
 
 ## Usage
 ```
-Usage: drq.py [OPTIONS] COMMAND
+Usage: rqg.py [OPTIONS] COMMAND
 
   This cli tool is used to get random quotes
 
@@ -31,15 +31,15 @@ Commands:
 
 **Get random Quote**
 ```python
-python drq.py get-random
+python rqg.py get-random
 ```
 
 **List all available quotes**
 ```python
-python drq.py list-all
+python rqg.py list-all
 ```
 
 **Add a new quote to the database**
 ```python
-python drq.py add-new # Then Follow the prompt
+python rqg.py add-new # Then Follow the prompt
 ```
