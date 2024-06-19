@@ -1,11 +1,10 @@
-![bana](images/banner.png)
+![bana](assets/banner.png)
 
-**Badges**
-
-Random Quotes Generator is a CLI tool that generates random quotes. 
+Random Quotes Generator is a CLI tool that generates random quotes.  
 Built with click framework
 
 **Basic usage gif**
+![assets](assets/scr.gif)
 
 ## How to Install
 1. Create a virtual environment
