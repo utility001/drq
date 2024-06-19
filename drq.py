@@ -8,7 +8,6 @@ def main():
     """
     This cli tool is used to get random quotes
     """
-    pass
 
 
 main.add_command(commands.get_random)
@@ -18,4 +17,3 @@ main.add_command(commands.add_new)
 
 if __name__ == "__main__":
     main()
-

@@ -12,7 +12,7 @@ class QuotesGenerator:
     def read_quotes(self):
         """Read quotes from the database"""
         try:
-            with open(file=self.filepath, mode="r") as file:
+            with open(file=self.filepath, mode="r", encoding="utf-8") as file:
                 quotes = file.readlines()
             # Strip extra whitespace characters from each line
             quotes = [quote.strip() for quote in quotes if quote.strip()]
@@ -23,8 +23,8 @@ class QuotesGenerator:
     def write_quote(self, quote_text):
         """Write quotes to the database"""
         # open the text file in append mode
-        with open(file=self.filepath, mode="a") as file:
-            file.write('\n\n' + quote_text)
+        with open(file=self.filepath, mode="a", encoding="utf-8") as file:
+            file.write("\n\n" + quote_text)
             return "SUCCESS: Quote written successfully to the Database ✅"
 
     def get_random_quote(self):
