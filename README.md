@@ -3,7 +3,7 @@
 Random Quotes Generator (RQG) is a CLI tool that generates random quotes.  
 Built with click framework
 
-**Basic usage gif**
+## Basic Usage
 ![assets](assets/scr.gif)
 
 ## How to Install
