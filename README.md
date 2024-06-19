@@ -1,12 +1,117 @@
-Build a CLI tool that will print random messages/quotes when run. Kinda like a fortune cookie
+![bana](images/banner.png)
 
-It will be called DRQ aka Daily Random Quotes
+**Badges**
 
-    The default behavior is to print random quotes to the screen
-    The quotes should be stored in a local txt file
+Random Quotes Generator is a CLI tool that generates random quotes. 
+Built with click framework
 
-The quotes should be sotred in a local txt file
+**Basic usage gif**
 
-You are not special, There's no problem you have that someone has not had, is not currently having and will not have in the future
+**How to Install**
+---
+1. Create a virtual environment
+2. Install the required packages
+   + `make install`
 
-Simple can be harder than complex. You have to work hard to get your thinking clean and make it simple, but its worth it in the end because when you get there, you can move mounta
+
+
+**Usage**
+---
+```
+Usage: drq.py [OPTIONS] COMMAND
+
+  This cli tool is used to get random quotes
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  add-new     Add a new quote to the database.
+  get-random  Get random quote from the database
+  list-all    List all the quotes available in the database
+```
+
+**Get random Quote**
+```python
+python drq.py get-random
+```
+
+**Add a new quote to the database**
+
+
+
+
+
+2. 
+You can use it directly from the terminal. Make sure you are in the root folder
+
+
+3. Install with [`pip`](https://pypi.org/project/stronghold/)
+    + `$ pip install stronghold`
+    + `$ stronghold`
+
+4. Download the `stronghold` binary from Releases tab.
+
+
+**Configuration Options**
+---
+
+1. Firewall
+
+    + Turn on Firewall?
+        - This helps protect your Mac from being attacked over the internet.
+    + Turn on logging?
+        - If there IS an infection, logs are useful for determining the source.
+    + Turn on stealth mode?
+        - Your Mac will not respond to ICMP ping requests or connection attempts from closed TCP and UDP networks.
+
+2. General System Protection
+
+    + Enable Gatekeeper?
+    	- Defend against malware by enforcing code signing and verifying downloaded applications before allowing them to run.
+    + Prevent automatic software whitelisting?
+        - Both built-in and downloaded software will require user approval for whitelisting.
+    + Disable Captive Portal Assistant and force login through browser on untrusted networks?
+        - Captive Portal Assistant could be triggered and direct you to a malicious site WITHOUT any user interaction.
+
+3. User Metadata Storage
+
+    + Clear language modeling metadata?
+        - This includes user spelling, typing and suggestion data.
+    + Disable language modeling data collection?
+    + Clear QuickLook metadata?
+    + Clear Downloads metadata?
+    + Disable metadata collection from Downloads?
+    + Clear SiriAnalytics database?
+
+4. User Safety
+
+    + Lock Mac as soon as screen saver starts?
+    + Display all file extensions?
+    	- This prevents malware from disguising itself as another file type.
+    + Disable saving documents to the cloud by default?
+        - This prevents sensitive documents from being unintentionally stored on the cloud.
+    + Show hidden files in Finder?
+    	- This lets you see all files on the system without having to use the terminal.
+    + Disable printer sharing?
+        - Offers redundancy in case the Firewall was not configured.
+
+**How to Contribute**
+---
+
+1. Clone repo and create a new branch: `$ git checkout https://github.com/alichtman/stronghold -b name_for_new_branch`.
+2. Make changes and test
+3. Submit Pull Request with comprehensive description of changes
+
+**Acknowledgements**
+---
+
++ [@shobrook](https://www.github.com/shobrook) for logo and UI design assistance.
++ Base logo vector made by [Freepik](https://www.freepik.com/) from [Flaticon](www.flaticon.com).
++ [drduh's macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) and [Jonathan Levin's MacOS Security Guide](http://newosxbook.com/files/moxii3/AppendixA.pdf) were incredibly helpful while I was building `stronghold`.
+
+**Donations**
+---
+
+This is free, open-source software. If you'd like to support the development of future projects, or say thanks for this one, you can donate BTC at `1FnJ8hRRNUtUavngswUD21dsFNezYLX5y9`.
