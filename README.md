@@ -7,16 +7,14 @@ Built with click framework
 
 **Basic usage gif**
 
-**How to Install**
----
+## How to Install
 1. Create a virtual environment
 2. Install the required packages
-   + `$ make install`
+   ```bash
+   make install
+   ```
 
-
-
-**Usage**
----
+## Usage
 ```
 Usage: drq.py [OPTIONS] COMMAND
 
